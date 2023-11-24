@@ -5,6 +5,7 @@ export const ProfileContainer = styled.div`
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     padding: 70px 50px; 
     `;
+
 export const Description = styled.div`
     background-color: #FFFFFF;
     display: flex;
@@ -29,11 +30,13 @@ export const Tag = styled.p`
     color: #0505057d;
     font-size: 15px;
 `;
+
 export const Location = styled.p`
     color: #0505057d;
     font-size: 15px;
     margin-bottom: 10px;
 `;
+
 export const Stats = styled.ul`
     background-color: #FFFFFF;
     list-style: none;
@@ -47,13 +50,15 @@ export const ListItem = styled.li`
     display: flex;
     flex-direction: column;
     padding: 20px 20px;
-`
+`;
+
 export const Label = styled.span`
     font-size: 10px;
     color: #0505057d;
     font-weight: 500;
 
-`
+`;
+
 export const Quantity = styled.span`
     font-size: 14px;
     font-weight: 700;
